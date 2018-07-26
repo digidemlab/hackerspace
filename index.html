@@ -61,8 +61,8 @@
     }
 
 		h1 .top {
-			letter-spacing: 6px;
-			margin-right: -3px;
+				letter-spacing: 6px;
+				margin-right: -3px;
 		}
     
     h2 {
@@ -75,7 +75,7 @@
     }
 
 		header h2 {
-			padding-top: 40px;
+				padding-top: 40px;
 		}
 
     div {
@@ -105,18 +105,34 @@
 				margin: 40px 0;
     }
 
-		.row .text {
-			padding-top: 180px;
+		@media only screen and (min-width: 640px) {
+
+			.row .text {
+				padding-top: 180px;
+			}
+
+			.row, .row img {
+				height: 300px;
+			}
+			
+			.row img {
+					float: left;
+					padding: 50px 100px;
+			}
+
 		}
 
-		.row, .row img {
-			height: 300px;
+		@media only screen and (max-width: 640px) {
+			.row img {
+				display: block;
+				margin: 50px auto;
+				width: 400px;
+			}
+			.row .text {
+				margin: 0 auto;
+				width: 300px;
+			}
 		}
-    
-    .row img {
-        float: left;
-        padding: 50px 100px;
-    }
     
 </style>
 
@@ -127,7 +143,6 @@
 <div id="page">
     
     <header>
-        
         <h1 class="normal"> 
 					<div class="top">Digidem Lab</div>
 					Hackerspace
@@ -148,18 +163,17 @@
 							<h2>Ask for help</h2> when you're stuck. There are experienced IT-people at the hackerspace who will gladly help you out!
 						</div>
         </div>
-            
+        
         <div class="row">
-            <img src="Cube.png">
+            <img src="Room.png">
 						<div class="text">
 							2nd floor<br>
 							Linnégatan 21
 						</div>
         </div>
-        
        
-        <div class="row image-right">
-					<img src="kitchen.jpg">
+        <div class="row">
+					<img src="Stairs.png">
 					<div class="text">
             Contact x number for entering the building
 					</div>
