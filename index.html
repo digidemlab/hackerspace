@@ -176,11 +176,46 @@
         <div class="row">
 					<img src="Stairs.png">
 					<div class="text">
-            Contact x number for entering the building
+						<span id="outer-door-locked">Contact <span id="none-phumber">LOL NO NUMBER</span> to enter the building, in case the outer door is locked.</span>
+						<span id="not-thursday">The hackerspace is closed currently. You're welcome next Thursday!</span>
 					</div>
         </div>
     </div>
 </div>
+
+<script>
+
+var map = {
+	g: 0,
+	e: 1,
+	o: 2,
+	a: 3,
+	u: 4,
+	r: 5,
+	v: 6,
+	z: 7,
+	m: 8,
+	p: 9,
+	k: ' '
+}
+
+function getNumber(s) {
+	return s.split('').map(function (c) {
+		return map[c]
+	}).join('')
+}
+
+var today = new Date()
+var THURSDAY = 4
+
+if (today.getDay() === THURSDAY) {
+	document.getElementById('none-phumber').innerHTML = getNumber('gzgkzrukzgkeo')
+	document.getElementById('not-thursday').innerHTML = ''
+} else {
+	document.getElementById('outer-door-locked').innerHTML = ''
+}
+
+</script>
 
 </body>
 
