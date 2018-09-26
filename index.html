@@ -176,8 +176,8 @@
         <div class="row">
 					<img src="Stairs.png">
 					<div class="text">
-						<span id="outer-door-locked">Contact <span id="none-phumber">LOL NO NUMBER</span> to enter the building, in case the outer door is locked.</span>
-						<span id="not-thursday">The hackerspace is closed currently. You're welcome next Thursday!</span>
+						<span id="outer-door-locked">Contact <span id="none-phumber">[PHONE NUMBER]</span> to enter the building, in case the outer door is locked.</span>
+						<span id="not-thursday">The hackerspace is closed currently. You're welcome next Wednesday!</span>
 					</div>
         </div>
     </div>
@@ -207,8 +207,9 @@ function getNumber(s) {
 
 var today = new Date()
 var THURSDAY = 4
+var WEDNESDAY = 3
 
-if (today.getDay() === THURSDAY) {
+if (today.getDay() === 3) {
 	document.getElementById('none-phumber').innerHTML = getNumber('gzgkzrukzgkeo')
 	document.getElementById('not-thursday').innerHTML = ''
 } else {
