@@ -4,7 +4,7 @@ const header = (links) => {
 	return (
 		<header>
 			<h1>Code Moth</h1>
-			<h2>A weekly hangout for learning about computers</h2>
+			<h2>A weekly hangout in Gothenburg for learning about computers</h2>
 			<nav>
 				{links.map(link => {
 					return <button onClick={link.action}>{link.text}</button>
@@ -34,7 +34,7 @@ const home = () => {
 				<img src="Stairs.png"/>
 					<div class="text">
 						2nd floor<br/>
-						Linnégatan 21<br/>
+						Linnégatan 21, Göteborg<br/>
 						Thursdays 18:00 - 20:00
 					</div>
 			</div>
