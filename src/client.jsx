@@ -20,7 +20,7 @@ const home = () => {
 		  <div class="row">
 					<img src="Room.png"/>
 					<div class="blurb">
-						Code Moth is an <b>open weekly hangout</b> for everyone who wants to learn and work with IT for a better world.
+						Code Moth is an <b>open weekly hangout</b> in Gothenburg, Sweden for everyone who wants to learn and work with IT for a better world.
 					</div>
 					<div class="blurb">
 						<h2>Be motivated</h2>by meeting others with similar interests. Having people around you who are interested in what you do helps you progress, and you can either work silently or ask others for feedback.
