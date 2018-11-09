@@ -4,11 +4,6 @@
 }
 
 @font-face {
-  src: url('fonts/Contentfonts/Nunito-Semibold.ttf');
-  font-family: 'TitlefontBold';
-}
-
-@font-face {
     src: url('fonts/Titlefonts/Nunito-Regular.ttf');
     font-family: 'Contentfont';
 }
@@ -102,7 +97,7 @@ main img {
 }
 
 h2 {
-  font-family: "TitlefontBold";
+  font-family: "ContentFont";
   font-weight: normal;
   margin: 0;
   letter-spacing: 1px;
