@@ -149,6 +149,7 @@ div {
 }
 
 .row h2.tagline {
+  font-family: "ContentFont";
   font-size: 16px;
   margin: auto;
   margin-top: 14px;
