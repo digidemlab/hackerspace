@@ -1,0 +1,172 @@
+@font-face {
+    src: url('fonts/Titlefonts/Montserrat-Regular.ttf');
+    font-family: 'TitlefontNormal';
+}
+
+@font-face {
+  src: url('fonts/Contentfonts/Nunito-Semibold.ttf');
+  font-family: 'TitlefontBold';
+}
+
+@font-face {
+    src: url('fonts/Titlefonts/Nunito-Regular.ttf');
+    font-family: 'Contentfont';
+}
+
+body {
+    background: white;
+    margin: 0;
+    font-family: 'Contentfont';
+}
+
+header {
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 150px;
+}
+
+header h2 {
+  font-family: "TitlefontNormal";
+  padding-top: 40px;
+  font-size: 16px;
+}
+
+header nav {
+  display: block;
+  width: 400px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+header a {
+  display: inline-block;
+  color: teal;
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 1px solid teal;
+  padding: 0 40px;
+}
+
+header a:hover {
+  background: teal;
+  color: white;
+}
+
+header a:focus {
+  outline: none;
+}
+
+header a.active, header a.active:hover {
+  color: black;
+  background: none;
+  border-bottom: none;
+}
+
+
+
+em {
+  color: #ff5233;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "ContentFont";
+  font-weight: normal;
+  margin: 0;
+  font-size: 40px;
+}
+
+main {
+  text-align: justify;
+}
+
+main h1, main img, main p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main h1 {
+  font-size: 28px;
+  width: 720px;
+  text-align: center;
+}
+
+main p {
+  width: 400px;
+}
+
+main img {
+  display: block;
+}
+
+h2 {
+  font-family: "TitlefontBold";
+  font-weight: normal;
+  margin: 0;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+.pageblurb {
+  border-bottom: 1px solid #CCC;
+  margin: auto;
+  max-width: 400px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.pageblurb h1 {
+  max-width: 400px;
+}
+
+.pageblurb p {
+  margin: 0;
+  margin-top: 10px;
+}
+
+#page {
+  max-width: 900px;
+  min-width: 640px;
+  margin: auto;
+}
+
+.row {
+  width: 100%;
+  margin: auto;
+  max-width: 400px;
+}
+
+.row h1 {
+  width: 100%;
+  font-size: 26px;
+}
+
+.row h2.tagline {
+  font-size: 16px;
+  margin: auto;
+  margin-top: 14px;
+  text-align: center;
+}
+
+.row p {
+  margin-top: 50px;
+}
+
+.row p.thin {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row img {
+  display: block;
+  margin: 50px auto;
+  height: 267px;
+}

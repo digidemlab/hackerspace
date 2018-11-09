@@ -6,8 +6,10 @@
   "author": "Sebastian Everett Eriksson",
   "license": "GPL-3.0",
   "dependencies": {
+    "history": "^4.7.2",
     "preact": "^8.3.1",
-    "preact-dom": "^1.0.1"
+    "preact-dom": "^1.0.1",
+    "preact-router": "^2.6.1"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
