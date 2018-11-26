@@ -40,7 +40,7 @@ header a {
   font-size: 20px;
   text-decoration: none;
   border-bottom: 1px solid teal;
-  width: 198px;
+  width: 130px;
 }
 
 header a:hover {
@@ -85,7 +85,6 @@ main h1, main img, main p {
 
 main h1 {
   font-size: 28px;
-  width: 720px;
   text-align: center;
 }
 
@@ -95,6 +94,10 @@ main p {
 
 main img {
   display: block;
+}
+
+main ul {
+  text-align: left;
 }
 
 h2 {
@@ -133,8 +136,7 @@ div {
   margin: auto;
 }
 
-.row {
-  width: 100%;
+.row, article {
   margin: auto;
   max-width: 400px;
 }
@@ -166,4 +168,23 @@ div {
   display: block;
   margin: 50px auto;
   height: 267px;
+}
+
+article h2 {
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+code.block {
+  display: block;
+  white-space: pre;
+  margin: 20px 0;
+  padding: 0 20px;
+}
+
+code {
+  display: inline;
+  font-size: 18px;
+  color: darkgreen;
+  font-weight: bold;
 }
