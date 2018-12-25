@@ -21,7 +21,7 @@ export default props => {
         <p class="thin">
           2nd floor<br/>
           Linnégatan 21, Göteborg<br/>
-          Thursdays 18:00 - 20:00
+          Code Moth is closed over the winter holidays, but normally open Thursdays 18:00 - 20:00
         </p>
 			</div>
        
