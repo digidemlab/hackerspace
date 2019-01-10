@@ -20,7 +20,7 @@ export default props => {
 				<img src="Stairs.png"/>
         <p class="thin">
           2nd floor<br/>
-          Normally we're at Linnégatan 21, Göteborg, but today (10th of January) we're at <a href="https://kalendarium.goteborg.se/wps/portal/enhetssida/motesplats-backa-brunnsbo-/kontakt" target="_blank">Mötesplats Backa-Brunnsbo</a>, Folkvisegatan 1.<br/>
+          Normally we're at Linnégatan 21, Göteborg, but today (10th of January) we're at <a href="https://kalendarium.goteborg.se/wps/portal/enhetssida/motesplats-backa-brunnsbo-/kontakt" target="_blank">Mötesplats Backa-Brunnsbo</a>, Folkvisegatan 14.<br/>
           Thursdays 18:00 - 20:00
         </p>
 			</div>
