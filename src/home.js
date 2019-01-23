@@ -19,17 +19,23 @@ export default props => {
 			<div class="row">
 				<img src="Stairs.png"/>
         <p class="thin">
-          2nd floor<br/>
-          Normally we're at Linnégatan 21, Göteborg, but today (10th of January) we're at <a href="https://kalendarium.goteborg.se/wps/portal/enhetssida/motesplats-backa-brunnsbo-/kontakt" target="_blank">Mötesplats Backa-Brunnsbo</a>, Folkvisegatan 14.<br/>
-          Thursdays 18:00 - 20:00
+          This week we'll be meeting at Chalmers Johanneberg, next to the campus entrance at the Chalmers tram station.<br/><br/>
+          Time and day: Thursday 24th of January 17:00 - 19:30<br/><br/>
+          Call or send a text message to <strong>070 754 70 12</strong> if you're joining late or if you're wondering anything about Code Moth.
         </p>
-			</div>
-       
-			<div class="row">
-				<p class="thin">
-					Contact <span id="none-phumber">070 754 70 12</span> to enter the building, in case the outer door is locked. You can also send a text message if you have questions about the hangout.
-				</p>
 			</div>
 		</main>
 	)
 }
+
+/*
+ *        <p class="thin">
+          2nd floor<br/>
+          Normally we're at Linnégatan 21, Göteborg, but today (10th of January) we're at <a href="https://kalendarium.goteborg.se/wps/portal/enhetssida/motesplats-backa-brunnsbo-/kontakt" target="_blank">Mötesplats Backa-Brunnsbo</a>, Folkvisegatan 14.<br/>
+          Thursdays 18:00 - 20:00
+        </p>
+
+
+
+					Contact <span id="none-phumber">070 754 70 12</span> to enter the building, in case the outer door is locked. You can also send a text message if you have questions about the hangout.
+*/
