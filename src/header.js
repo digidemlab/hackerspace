@@ -1,4 +1,5 @@
 import { render, h } from 'preact'
+import Nav from './nav'
 
 export default props => {
 	return (
@@ -6,13 +7,7 @@ export default props => {
 			<h1>Code Moth</h1>
 			<h2>A weekly hangout in Gothenburg for learning about computers</h2>
 
-			<nav>
-				{props.links.map(link => {
-					return <a className={
-            window.location.hash == link.href ? 'active' : ''
-          } href={link.href}>{link.text}</a>
-				})}
-			</nav>
+      <Nav links={props.links} />
 		</header>
 	)
 }

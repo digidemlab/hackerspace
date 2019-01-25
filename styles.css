@@ -188,3 +188,20 @@ code {
   color: darkgreen;
   font-weight: bold;
 }
+
+.tutorials nav {
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.tutorials nav a {
+  display: block;
+}
+
+.tutorials nav a.active {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: black;
+}
