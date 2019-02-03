@@ -36,7 +36,7 @@ export default props => {
       <div class="pageblurb">
         <h1>Tutorials and Articles</h1>
 
-        <p>Below are a couple of tutorials and articles that could help you in code learning.</p>
+        <p>Below are a couple of tutorials and articles that could help you in your code learning.</p>
 
         <p><em>None of these are a requirement for any of our lectures.</em> They are just a complement to our weekly activity.</p>
 
