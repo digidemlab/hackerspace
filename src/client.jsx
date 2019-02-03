@@ -18,7 +18,7 @@ function App(props) {
     },
     {
       href: "#/tutorials",
-      text: "Tutorial"
+      text: "Tutorials/Articles"
     }
 	]
 	return (
