@@ -1,6 +1,7 @@
 import { render, h } from 'preact'
 
 export default props => {
+  document.title = "Code Moth"
 	return (
 		<main>
 		  <div class="row">

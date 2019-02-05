@@ -1,6 +1,7 @@
 import { render, h } from 'preact'
 
 export default props => {
+  document.title = "Code Moth - How do you understand programming?"
 	return (
     <main>
       <article>

@@ -5,6 +5,8 @@ import MasterTheMoose from './article_master_the_moose'
 import Nav from './nav'
 
 export default props => {
+  document.title = "Code Moth - Tutorials/Articles"
+
   const tutorial = props.tutorial
 
   let tutelem = ''
