@@ -17,7 +17,12 @@ body {
 header {
   text-align: center;
   padding-bottom: 100px;
-  padding-top: 150px;
+  padding-top: 50px;
+}
+
+header img {
+  width: 400px;
+  margin-bottom: 40px;
 }
 
 header h2 {
@@ -28,7 +33,6 @@ header h2 {
 
 header nav {
   display: block;
-  width: 400px;
   margin: auto;
   margin-top: 100px;
   text-align: center;
@@ -40,7 +44,7 @@ header a {
   font-size: 20px;
   text-decoration: none;
   border-bottom: 1px solid teal;
-  width: 130px;
+  width: 160px;
 }
 
 header a:hover {
@@ -88,7 +92,7 @@ main h1 {
   text-align: center;
 }
 
-main p {
+main p, main img {
   width: 400px;
 }
 
@@ -168,6 +172,7 @@ div {
   display: block;
   margin: 50px auto;
   height: 267px;
+  width: auto;
 }
 
 article h2 {
@@ -187,4 +192,21 @@ code {
   font-size: 18px;
   color: darkgreen;
   font-weight: bold;
+}
+
+.tutorials nav {
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.tutorials nav a {
+  display: block;
+}
+
+.tutorials nav a.active {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: black;
 }

@@ -18,7 +18,7 @@ function App(props) {
     },
     {
       href: "#/tutorials",
-      text: "Tutorial"
+      text: "Tutorials/Articles"
     }
 	]
 	return (
@@ -27,7 +27,7 @@ function App(props) {
       <Router history={createHashHistory()}>
         <Home path="/"/>
         <Lectures path="/lectures"/>
-        <Tutorials path="/tutorials"/>
+        <Tutorials path="/tutorials/:tutorial?"/>
       </Router>
     </div>
 	)

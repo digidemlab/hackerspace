@@ -1,6 +1,7 @@
 import { render, h } from 'preact'
 
 export default props => {
+  document.title = "Code Moth - Lectures"
 	return (
     <main>
       <div class="pageblurb">

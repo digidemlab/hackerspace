@@ -1,6 +1,6 @@
 {
   "name": "codemoth-website",
-  "version": "0.0.2",
+  "version": "1.0",
   "description": "Official website of the weekly hangout Code Moth in Gothenburg, Sweden.",
   "main": "index.js",
   "author": "Sebastian Everett Eriksson",
